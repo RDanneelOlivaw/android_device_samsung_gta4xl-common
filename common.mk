@@ -237,7 +237,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Task profiles
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/task_profiles/cgroups_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
-    $(COMMON_PATH)/configs/task_profBoardConfigCommoniles/task_profiles_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+    $(COMMON_PATH)/configs/task_profiles/task_profiles_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
 
 # Thermal
 PRODUCT_PACKAGES += \
