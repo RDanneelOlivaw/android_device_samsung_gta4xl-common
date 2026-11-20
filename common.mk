@@ -233,6 +233,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung \
     hardware/samsung_slsi-linaro/exynos/libaudio/audiohal \
     hardware/samsung_slsi-linaro/exynos/gralloc/gralloc4 \
+    hardware/samsung_slsi-linaro/graphics \
     hardware/samsung_slsi/libbt \
     hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib \
     hardware/samsung_slsi/scsc_wifibt/wifi_hal
