@@ -76,13 +76,9 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.allocator@2.0-impl:64 \
-    android.hardware.graphics.allocator@2.0-service \
-    android.hardware.graphics.mapper@2.0-impl-2.1
-
-PRODUCT_PACKAGES += \
-    android.hardware.composer.hwc3-service.slsi \
-    gralloc.universal9611
+    android.hardware.graphics.allocator@4.0-service \
+    android.hardware.graphics.mapper@4.0-impl \
+    android.hardware.composer.hwc3-service.slsi
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -241,7 +237,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Task profiles
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/task_profiles/cgroups_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
-    $(COMMON_PATH)/configs/task_profiles/task_profiles_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+    $(COMMON_PATH)/configs/task_profBoardConfigCommoniles/task_profiles_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
 
 # Thermal
 PRODUCT_PACKAGES += \
