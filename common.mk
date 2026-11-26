@@ -60,7 +60,8 @@ TARGET_EXCLUDES_AUDIOFX := true
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl:64 \
     android.hardware.bluetooth@1.0-service \
-    libbt-vendor:64
+    libbt-vendor:64 \
+    bt_did.slsi.conf
 
 # Camera
 PRODUCT_PACKAGES += \
